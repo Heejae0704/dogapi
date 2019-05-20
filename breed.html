@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="web application showing a picture of the dog breed">
+        <title>You name a dog breed, we show a picture</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <p>What kind of dog breed you want to see?</p>
+            </header>
+            <section>
+                <form>
+                    <label for="breed">Type in the breed: </label>
+                    <input name="breed" id="breed" type="text"/>
+                    <input class="submit" type="submit" value="Get a dog!">
+                </form>
+            </section>
+            <section class="pic-result"></section>
+        </main>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="breed.js"></script>
+    </body>
+</html>
